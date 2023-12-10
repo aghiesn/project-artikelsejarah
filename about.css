@@ -1,0 +1,94 @@
+/* atur font dan atur background */
+.base {
+    background-image: url("img/menu-artikel/back1.png");
+    background-size: auto;
+    font-family: 'fantique_fourregular';
+    background-repeat: repeat;
+
+}
+/* atur posisi text 'Artikel Sejarah' */
+.base h1 {
+    padding: 2px;
+}
+/* Atur Navigasi Bar Box */
+.nav1{
+    max-width: auto;
+    max-height: 1%;
+    background-image: url('img/menu-artikel/nav-back.png');
+    border-radius: 20px;
+    text-align: left;
+    position: sticky;
+    overflow: visible;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
+
+/* Merapihkan Kembali teks Navigasi bar dasar */
+.navlist1 {
+    list-style-type: none;
+}
+
+/* Mengatur posisi teks navigasi bar dalam */
+.navlist1 li, a, .dropart{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 16px;
+
+}
+ li:hover, a:hover, .dropart:hover{
+    color: #00BFFF;
+}
+/* Mengatur posisi navigasi bar */
+header{
+    display: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+    position: relative;
+}
+.badan {
+    position: relative;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 50px;
+    width: auto;
+    height: auto;
+    margin: 0px 50px 20px 50px; /* atas kanan bawah kiri*/
+    display: flex;
+    justify-content: center;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+}
+
+.desc img {
+    width: 200px;
+    height: 200px;
+    object-fit: scale-down;
+    justify-content: center;
+    display: inline-block;
+    margin: 0px 0px 0px 450px;
+}
+.desc{
+    float: none;
+    justify-content: center;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+.desc p {
+    margin: 0px 0px 0px 0px;
+    font-size: 30px;
+    justify-content: center;
+}
+.desc pa{
+    margin-top: 50px;
+    float: right;
+}

@@ -1,0 +1,124 @@
+/* atur font dan atur background */
+.base {
+    background-image: url("img/menu-artikel/back1.png");
+    background-size: auto;
+    font-family: 'fantique_fourregular';
+    background-repeat: repeat;
+}
+/* atur posisi text 'Artikel Sejarah' */
+.base h1 {
+    padding: 2px;
+}
+/* Atur Navigasi Bar Box */
+.nav1{
+    max-width: auto;
+    max-height: 1%;
+    background-image: url('img/menu-artikel/nav-back.png');
+    border-radius: 20px;
+    text-align: left;
+    position: sticky;
+    overflow: visible;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
+
+/* Merapihkan Kembali teks Navigasi bar dasar */
+.navlist1 {
+    list-style-type: none;
+}
+
+/* Mengatur posisi teks navigasi bar dalam */
+.navlist1 li, a, .dropart{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 16px;
+
+}
+ li:hover, a:hover, .dropart:hover{
+    color: #00BFFF;
+}
+/* Mengatur posisi navigasi bar */
+header{
+    display: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+    position: relative;
+}
+.badan{
+    position: relative;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 50px;
+    width: auto;
+    height: 300px;
+    margin: 0px 50px 20px 50px; /* atas kanan bawah kiri*/
+    display: flex;
+    justify-content: center;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+}
+.c {
+    position: relative;
+    width: 450px;
+    height: 253px;
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    margin: 20px 50px 50px 420px; /* atas kanan bawah kiri*/
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    background-color: rgba(255, 255, 255, 0.678);
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+}
+
+.ig, .wa, .dc {
+    display: inline-block;
+    width: 450px;
+    height: 253px;
+}
+.wa img {
+    margin: 0px 0px 0px 125px;
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+}
+.dc img{
+    float: right;
+    margin: 0px 0px 0px 200px;
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;  
+}
+.ig img {
+    margin: 0px 0px 0px 0px;
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: scale-down;
+}
+.wa p {
+    font-size: 20px;
+    margin: 0px 0px 0px -25px;
+}
+.ig p {
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+.dc p {
+    font-size: 20px;
+    margin: 0px 0px 0px 200px;
+}

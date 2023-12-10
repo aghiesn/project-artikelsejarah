@@ -1,0 +1,149 @@
+.base {
+    background-image: url("img/menu-artikel/back2.png");
+    background-size: auto;
+    font-family: 'fantique_fourregular';
+    background-repeat: repeat;
+
+}
+/* atur posisi text 'Artikel Sejarah' */
+.base h1 {
+    padding: 2px;
+}
+.nav1{
+    max-width: auto;
+    max-height: 1%;
+    background-image: url('img/menu-artikel/nav-back.png');
+    border-radius: 20px;
+    text-align: left;
+    position: sticky;
+    overflow: visible;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
+
+/* Merapihkan Kembali teks Navigasi bar dasar */
+.navlist1 {
+    list-style-type: none;
+}
+
+/* Mengatur posisi teks navigasi bar dalam */
+.navlist1 li, a, .dropart{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    padding: 2px 16px;
+
+}
+ li:hover, a:hover, .dropart:hover{
+    color: #00BFFF;
+}
+/* Mengatur posisi navigasi bar */
+header{
+    display: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+    position: relative;
+}
+.badan{
+    position: relative;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgba(236, 177, 129, 0.678);
+    padding: 50px;
+    width: auto;
+    height: auto;
+    margin: 20px 50px 20px 50px; /* atas kanan bawah kiri*/
+    display: flex;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
+.judul {
+    position: absolute;
+    font-size: 40px;
+    font-style: italic;
+    justify-content: left;
+
+}
+.paragraph {
+    float: none;
+    font-size: 25px;
+    text-align: justify;
+}
+.p1 {
+    float: none;
+    margin-top: 50px;
+}
+.p2, .p3, .p4, .p5, .p6, .p7, .p8, .p9, .p10, .p11, .p12 {
+    float: none;
+}
+.p5 pa, .p6 pa, .p10 pa{
+    font-size: 30px;
+}
+.p1 img {
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    float: right;
+    margin: 0px 0px 20px 20px;
+    border-radius: 15px;
+    border-color: rgb(248, 255, 215);
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67); 
+}
+.p2 img, .p4 img, .p8 img, .p10 img{
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 50%;
+    float: left;
+    margin: 0px 20px 20px 0px;
+    border-radius: 15px;
+    border-color: rgb(248, 255, 215);
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67); 
+}
+.p3 img, .p5 img, .p6 img, .p9 img{
+    width: 450px;
+    height: 550px;
+    object-fit: cover;
+    object-position: 50% 50%;
+    float: right;
+    margin: 0px 0px 20px 20px;
+    border-radius: 15px;
+    border-color: rgb(248, 255, 215);
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67); 
+}
+.p12 img{
+    width: 450px;
+    height: 620px;
+    object-fit: cover;
+    object-position: 75% 0%;
+    float: right;
+    margin: 0px 0px 20px 20px;
+    border-radius: 15px;
+    border-color: rgb(248, 255, 215);
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67); 
+}
+.back {
+    float: right;
+}
+.keatas {
+    float: left;
+    line-height: 0px;
+}

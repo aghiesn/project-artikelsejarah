@@ -1,0 +1,63 @@
+=============================================================
+CHANGELOG WEBSITE
+=============================================================
+
+V0.1
+- Bagian Menu Artikel dibuat !!
+- Pembuatan dasar html dan tata letak kotak
+
+V0.2
+- Penambahan NavBar !! (Nama web, Home, Daftar Artikel, 
+dan about)
+- Penambahan link dummy untuk NavBar
+- Penyesuaian Menu Artikel
+- Penggunaan gambar dummy untuk menentukan posisi
+objek
+
+V0.3
+- Penambahan Desain Gambar Background pada Home&Menu artikel
+dan bagian Artikel-Artikel !!
+- Penambahan bagian Home.html !!
+- Penambahan Font Fantique Four (Deemo) !!
+- Mengatur kembali tata letak file-file yang diperlukan
+
+V0.4
+- Penambahan artikel Perang Dunia Kapal !!
+- Penyesuaian kembali icon pada menu artikel bagian
+Perang Dunia Kapal
+- Penambahan Gambar pada Artikel Perang Dunia Kapal
+serta Penyesuaian tata letak gambar
+
+V0.5
+- Penambahan artikel Peninggalan Jepang di Indonesia
+dan Pertempuran Atlantik Pertama !!
+- Penyesuaian kembali icon pada menu artikel bagian
+Peninggalan Jepang di Indonesia dan Pertempuran Atlantik
+Pertama
+- Penambahan gambar pada artikel Peninggalan Jepang di
+Indonesia dan Pertempuran Atlantik Pertama
+
+V0.6
+- Penambahan artikel Perang Dunia 1 !!
+- Penambahan artikel Perang Dunia 2 !!
+- Penyesuaian kembali icon pada menu artikel bagian
+Perang Dunia 1 dan Perang Dunia 2
+- Penambahan Gambar pada artikel Perang Dunia 1 dan 
+Perang Dunia 2, serta Penyesuaian tata letak gambar
+
+V0.7
+- Penambahan artikel Sejarah Nenek Moyang Indonesia !!
+- Penambahan desain pada Navigasi bar !!
+- Penambahan gambar pada artikel Sejarah Nenek Moyang 
+Indonesia
+- Penyesuaian kembali menu pada Navigasi Bar (Home, About, 
+Contacts, Feedback)
+- Menyetting dan penambahan bagian Navigasi bar
+- Memberikan efek warna biru pada tulisan yang dapat
+di klik
+
+V0.8
+- Penambahan bagian contacts, about, dan feedback
+- Penyesuaian tampilan pada home, contacts, about, feedback, 
+dan menu artikel
+

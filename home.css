@@ -1,0 +1,45 @@
+/* atur font dan atur background */
+.badan {
+    background-image: url("img/menu-artikel/back1.png");
+    background-size: auto;
+    font-family: 'fantique_fourregular';
+    background-repeat: repeat;
+
+}
+.bag1 {
+    float: none;
+    position: relative;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(95, 148, 51);
+    padding: 50px;
+    width: auto;
+    height: auto;
+    margin: 20px 50px 20px 50px; /* atas kanan bawah kiri*/
+    display: flex;
+    justify-content: center;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
+.bag2 {
+    position: relative;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(95, 148, 51);
+    padding: 50px;
+    width: 200px;
+    height: 100%;
+    margin: 150px 50px 20px 500px; /* atas kanan bawah kiri*/
+    display: flex;
+    justify-content: center;
+    box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -webkit-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px 10px 12px 3px rgba(0,0,0,0.67);
+
+}
